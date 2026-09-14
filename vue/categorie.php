@@ -14,7 +14,7 @@ if (!empty($_GET['id'])) {
                 <input value="<?= !empty($_GET['id']) ?  $categorie['libelle_categorie'] : "" ?>" type="text" name="libelle_categorie" id="libelle_categorie" placeholder="Veuillez saisir le libéllé">
                 <input value="<?= !empty($_GET['id']) ?  $categorie['id'] : "" ?>" type="hidden" name="id" id="id" >
 
-                <button type="submit">Valider</button>
+                <button type="submit">Valider.</button>
 
                 <?php
                 if (!empty($_SESSION['message']['text'])) {
